@@ -1,190 +1,260 @@
-"Phrases"		// working color tags {default}, {darkred}, {red}, {green}, {lightgreen}, {blue}, {olive}, {lime}, {lightred}, {purple}, {grey}, {orange}
+// Exported from SourceMod Translator
+// http://translator.mitchdempsey.com/sourcemod_plugins/186
+//
+"Phrases"
 {
-	"duckhunt_tag"
-	{
-		"en"		"[{green}MyJB.Duckhunt{default}]"
-	}
-	
-	"duckhunt_rounds" 
-	{
-		"#format"	"{1:i},{2:i}"
-		"da"		"Runde {purple}{1}{default} af {purple}{2}"		
-		"en"		"Round {purple}{1}{default} of {purple}{2}"
-		"de"		"Runde {purple}{1}{default} von {purple}{2}"
-	}
-	"duckhunt_need"
-	{
-		"#format"	"{1:i},{2:N}"
-		"da"		"{purple}{2}{default} har stemt. {purple}{1}{default} afstemninger tilbage til {darkred}duckhunt"		
-		"en"		"{purple}{2}{default} has votet. {purple}{1}{default} votes left to {darkred}duckhunt"
-		"de"		"{purple}{2}{default} hat gevotet. jetzt noch {purple}{1}{default} votes bis {darkred}duckhunt{default} beginnt"
-	}
-	
-	"duckhunt_voting"
-	{
-		"da"		"Afstemninger for Duckhunt er {purple}slået fra"	
-		"en"		"Player voting for Duckhunt is {purple}disabled"
-		"de"		"Voting für duckhuntt ist {purple}ausgeschaltet"
-	}
-	
-	"duckhunt_setbywarden"
-	{
-		"da"		"Duckhunt for Warden er {purple}slået fra"	
-		"en"		"Set Duckhunt by warden is {purple}isabled"
-		"de"		"Duckhunt Aktivierung durch den Warden ist {purple}ausgeschaltet"
-	}
-	
-	"duckhunt_setbyadmin"
-	{
-		"da"		"Duckhunt for Admin er {purple}slået fra"	
-		"en"		"Set Duckhunt by admin is {purple}disabled"
-		"de"		"Duckhunt Aktivierung durch den Admin ist {purple}ausgeschaltet"
-	}
-	
 	"duckhunt_ctwin_nc"
 	{
-		"da"		"Alle ænder er døde!"
-		"en"		"All ducks got shot"
+		"en"		"All ducks have been hunted!"
+		"ru"		"Всех уток подстрелили"
+		"pl"		"Wszystkie kaczki ustrzelone"
 		"de"		"Alle Enten wurden geschossen"
+		"da"		"Alle ænder er døde!"
 	}
-	
-	"duckhunt_twin_nc"
-	{
-		"da"		"Duckhunterne er slået ihjel!"
-		"en"		"The duckhunter died"
-		"de"		"Der Jäger wurde zum Gejagdten"
-	}
-	
-	"duckhunt_end"
-	{
-		"da"		"{purple}Duckhunt{default} er afsluttet!"
-		"en"		"{purple}Duckhunt{default} finished"
-		"de"		"{purple}Duckhunt{default} beendet"
-	}
-	
-	"duckhunt_next"
-	{
-		"da"		"Næste runde er {purple}Duckhunt"
-		"en"		"Next round is {purple}Duckhunt"
-		"de"		"Nächste Runde ist {purple}Duckhunt"
-	}
-	
-		
-	"duckhunt_next_nc"
-	{
-		"da"		"Næste runde er Duckhunt"
-		"en"		"Next round is Duckhunt"
-		"de"		"Nächste Runde ist Duckhunt"
-	}
-	
-	"duckhunt_start"
-	{
-		"da"		"{purple}Duckhunt{default} er startet!"
-		"en"		"The {purple}Duckhunt{default} has started!"
-		"de"		"{purple}Duckhunt{default} ist gestartet!"
-	}
-	
-	"duckhunt_start_nc"
-	{
-		"da"		"Duckhunt er startet!"
-		"en"		"The Duckhunt has started!"
-		"de"		"Duckhunt ist gestartet!"
-	}
-	"duckhunt_voted"
-	{
-		"da"		"Du har allerede stemt for {purple}Duckhunt Event!"
-		"en"		"You already voted for {purple}Duckhunt"
-		"de"		"Du hast schon für {purple}Duckhunt {default}gevotet"
-	}
-	
-	"duckhunt_progress"
-	{
-		"#format"	"{1:s}"
-		"en"		"Event {darkred}{1} {default}is {purple}already in progress."
-		"de"		"Event {darkred}{1} {default}ist {purple}bereits gesetzt."
-	}
-	
-	"duckhunt_minplayer"
-	{
-		"da"		"For at lave Duckhunt skal der mindst være {purple}en CT & en T"
-		"en"		"For a Duckhunt you need at least {purple}one CT & one T"
-		"de"		"Für Duckhunt brauchen wir mindestens {purple}einen CT & einen T"
-	}
-	
+
 	"duckhunt_disabled"
 	{
-		"da"		"Duckhunt er {purple}slået fra."
-		"en"		"Duckhunt is {purple}disabled."
-		"de"		"Duckhunt ist {purple}deaktiviert."
+		"da"		"Duckhunt er midlertidigt {purple}slået fra."
+		"ru"		"Охота на уток {purple}отключена."
+		"pl"		"Polowanie na kaczki jest {purple}wylaczone."
+		"de"		"Duckhunt ist vorübergehend {purple}deaktiviert."
+		"en"		"Duckhunt is currently {purple}disabled!"
 	}
-	
-	"duckhunt_timeuntilstart_nc"		// no colors!
+
+	"duckhunt_end"
 	{
-		"#format"	"{1:i}"
-		"da"		"{1} sekunder til start!"		
-		"en"		"{1} seconds until start"
-		"de"		"{1} Sekunden bis zum Start"
+		"ru"		"{purple}Охота на уток{default} окончена"
+		"pl"		"{purple}Polowanie na kaczki {default} Zakonczone"
+		"de"		"{purple}Duckhunt{default} beendet"
+		"en"		"{purple}Duckhunt{default} has ended."
+		"da"		"{purple}Duckhunt{default} er afsluttet!"
 	}
-	
-	"duckhunt_info_title"		// no colors!
+
+	"duckhunt_info_line1"
 	{
-		"da"		"Duckhunt er aktiveret!"	
-		"en"		"Duckhunt is active"
-		"de"		"Duckhunt ist aktiv"
-	}
-	
-	"duckhunt_info_line1"		// no colors!
-	{
-		"da"		"en slags lerdueskydning"	
-		"en"		"A kind of clay pigeon shooting"
+		"ru"		"Своего рода стрельба по голубям"
+		"pl"		"Cos jak strzelanie do golebi"
 		"de"		"Eine Art Tontaubenschiessen"
+		"en"		"Shoot all the ducks!"
+		"da"		"en slags lerdueskydning"
 	}
-	"duckhunt_info_line2"		// no colors!
+
+	"duckhunt_info_line2"
 	{
-		"da"		"CT har kun shotgun at skyde med!"	
-		"en"		"Counter-Terrorists got novas"
+		"ru"		"КТ получили дробовики"
+		"pl"		"Counter-Terrorists maja bron Nova"
 		"de"		"Counter-Terrorists haben Nova"
+		"en"		"Guards have Novas!"
+		"da"		"CT har kun shotgun at skyde med!"
 	}
-	
-	"duckhunt_info_line3"		// no colors!
+
+	"duckhunt_info_line3"
 	{
-		"da"		"T er kyllinger og har nades. Rightclick Only"	
-		"en"		"Ts are chickens and have got grenades. Rightclick Only"
+		"ru"		"Террористы утки и они получили гранаты. Разрешена только правая кнопка мыши"
+		"pl"		"Terrorysci sa kurczakami i maja granaty. Tylko prawy guzik myszki"
 		"de"		"Terroristen sind chicken haben Granaten. Rightclick Only"
+		"en"		"The Prisoners are now chickens and have grenades. Right click Only!"
+		"da"		"T er kyllinger og har nades. Rightclick Only"
 	}
-	
-	"duckhunt_info_line4"		// no colors!
+
+	"duckhunt_info_line4"
 	{
-		"da"		"Alle jail regler er ophævet!"	
-		"en"		"All normal jail rules are repealed"
+		"ru"		"Все нормальные правила тюрьмы отменяются"
+		"pl"		"Zasady Wiezienia nie obowiazuja w tej rundzie!"
 		"de"		"Alle normalen Jailregeln sind aufgehoben!"
+		"en"		"All usual Jailbreak Rules do not apply during this round!"
+		"da"		"Alle jail regler er ophævet!"
 	}
-	
-	"duckhunt_info_line5"		// no colors!
+
+	"duckhunt_info_line5"
 	{
-		"da"		"!lr er deaktiveret i denne runde!"	
-		"en"		"There is no last request!"
+		"ru"		"Здесь нету последних желаний!"
+		"pl"		"Nie ma ostatniego zyczenia!"
 		"de"		"Der letzte Terrorists hat keinen Wunsch!"
+		"en"		"Last Request is disabled during this round!"
+		"da"		"!lr er deaktiveret i denne runde!"
 	}
-	
-	"duckhunt_info_line6"		// no colors!
+
+	"duckhunt_info_line6"
 	{
-		"en"		"Stay in the main jailroom! Don't enter secrets!"
+		"ru"		"Оставайтесь в главной камере! Не уходите в нычки!"
+		"pl"		"Zostan w glownym pomieszczeniu Wiezienia! Zakaz wejsc do SECRETOW!"
 		"de"		"Bleib' im Haupt Jail Raum! Verstecke sind verboten!"
+		"en"		"You must stay in the main Jailroom! Don't enter vents or secret areas!"
 	}
-	
-	"duckhunt_info_line7"		// no colors!
+
+	"duckhunt_info_line7"
 	{
-		"da"		"Alle server regler skal overholdes!"	
-		"en"		"Dont be an asshole!"
+		"ru"		"Не будь мудаком!"
+		"pl"		"Nie badz DUPKIEM!"
 		"de"		"Bau keine Scheisse!"
+		"en"		"Don't be an Asshole!"
+		"da"		"Alle server regler skal overholdes!"
 	}
-	
+
+	"duckhunt_info_title"
+	{
+		"ru"		"Охота на уток активна!"
+		"pl"		"Polowanie na kaczki jest aktywne"
+		"de"		"Duckhunt ist aktiv"
+		"en"		"Duckhunt is now Activated!"
+		"da"		"Duckhunt er aktiveret!"
+	}
+
+	"duckhunt_minplayer"
+	{
+		"ru"		"Для охоты на уток нужно как минимум {purple} один КТ и один Т"
+		"pl"		"Do Polowania na kaczki potrzeba minimum {purple}jednego  CT i jednego T"
+		"de"		"Für Duckhunt brauchen wir mindestens {purple}einen CT & einen T"
+		"en"		"For Duckhunt, you must have at least {purple}one Guard, & one Prisoner"
+		"da"		"For at lave Duckhunt skal der mindst være {purple}en CT & en T"
+	}
+
+	"duckhunt_name"
+	{
+		"en"		"Duckhunt"
+		"de"		"Entenjagd"
+		"pl"		"Polowanie na kaczki"
+		"ru"		"Охота на уток"
+	}
+
+	"duckhunt_need"
+	{
+		"#format"   "{1:i},{2:N}"
+		"ru"		"{purple}{2}{default} проголосовал. {purple}{1}{default} голосов осталось до {darkred}Охоты на уток"
+		"pl"		"{purple}{2}{default} zaglosowal. {purple}{1}{default} glos potrzebny do {darkred}Polowania na kaczki"
+		"de"		"{purple}{2}{default} hat gevotet. jetzt noch {purple}{1}{default} votes bis {darkred}duckhunt{default} beginnt"
+		"en"		"{purple}{2}{default} has voted. {purple}{1}{default} vote(s) required to play {darkred}Duckhunt."
+		"da"		"{purple}{2}{default} har stemt. {purple}{1}{default} afstemninger tilbage til {darkred}duckhunt"
+	}
+
+	"duckhunt_next"
+	{
+		"ru"		"Следующий раунд {purple}Охота на уток"
+		"pl"		"Nastepna runda to {purple}Polowanie na Kaczki"
+		"de"		"Nächste Runde ist {purple}Duckhunt"
+		"en"		"The following round will be: {purple}Duckhunt."
+		"da"		"Næste runde er {purple}Duckhunt"
+	}
+
+	"duckhunt_next_nc"
+	{
+		"ru"		"Следующий раунд Охота на Уток"
+		"pl"		"Nastepna runda to Polowanie na Kaczki"
+		"de"		"Nächste Runde ist Duckhunt"
+		"en"		"The following round will be: Duckhunt."
+		"da"		"Næste runde er Duckhunt"
+	}
+
+	"duckhunt_progress"
+	{
+		"#format"   "{1:s}"
+		"en"		"Event {darkred}{1} {default}is {purple}already in progress."
+		"ru"		"Игровой день {darkred}{1} {default}в {purple}процессе."
+		"pl"		"Zabawa {darkred}{1} {default}jest {purple}juz grana."
+		"de"		"Event {darkred}{1} {default}ist {purple}bereits gesetzt."
+		"en"		"Event {darkred}{1} {default}is {purple}already in progress."
+	}
+
+	"duckhunt_rounds"
+	{
+		"#format"   "{1:i},{2:i}"
+		"ru"		"Раунд {purple}{1}{default} о {purple}{2}"
+		"pl"		"Runda {purple}{1}{default} z {purple}{2}"
+		"de"		"Runde {purple}{1}{default} von {purple}{2}"
+		"en"		"Round {purple}{1}{default} of {purple}{2}"
+		"da"		"Runde {purple}{1}{default} af {purple}{2}"
+	}
+
+	"duckhunt_setbyadmin"
+	{
+		"ru"		"Администратор {purple}отключил{default} выбор Охоты на Уток"
+		"pl"		"Wlaczenie Polowania na Kaczki przez admina jest {purple}wylaczone"
+		"de"		"Duckhunt Aktivierung durch den Admin ist {purple}ausgeschaltet"
+		"en"		"Set Duckhunt by Admin is {purple}disabled!"
+		"da"		"Duckhunt for Admin er {purple}slået fra"
+	}
+
+	"duckhunt_setbywarden"
+	{
+		"ru"		"Командир {purple}отключил{default} выбор Охоты на Уток"
+		"pl"		"Glosowanie na Polowanie na Kaczki przez Straznika jest {purple}wylaczone"
+		"de"		"Duckhunt Aktivierung durch den Warden ist {purple}ausgeschaltet"
+		"en"		"Set Duckhunt by Warden is {purple}disabled!"
+		"da"		"Duckhunt for Warden er {purple}slået fra"
+	}
+
+	"duckhunt_start"
+	{
+		"ru"		"{purple}Охота на уток{default} началась!"
+		"pl"		"{purple}Polowanie na Kaczki{default} sie rozpoczelo!"
+		"de"		"{purple}Duckhunt{default} ist gestartet!"
+		"en"		"{purple}Duckhunt{default} has begun!"
+		"da"		"{purple}Duckhunt{default} er startet!"
+	}
+
+	"duckhunt_start_nc"
+	{
+		"ru"		"Охота на Уток началась!"
+		"pl"		"Polowanie na Kaczki sie rozpoczelo!"
+		"de"		"Duckhunt ist gestartet!"
+		"en"		"Duckhunt has begun!"
+		"da"		"Duckhunt er startet!"
+	}
+
+	"duckhunt_tag"
+	{
+		"ru"		"[{green}MyJB.Duckhunt{default}]"
+		"pl"		"[{green}JB.Polowanie na Kaczki{default}]"
+		"en"		"[{green}MyJB.Duckhunt{default}]"
+	}
+
+	"duckhunt_timeuntilstart_nc"
+	{
+		"#format"   "{1:i}"
+		"ru"		"{1} секунд до начала"
+		"pl"		"{1} sekund do startu"
+		"de"		"{1} Sekunden bis zum Start"
+		"en"		"{1} seconds until round start!"
+		"da"		"{1} sekunder til start!"
+	}
+
+	"duckhunt_twin_nc"
+	{
+		"ru"		"Охотники на уток мертвы"
+		"pl"		"Mysliwy padl na polu walki"
+		"de"		"Der Jäger wurde zum Gejagdten"
+		"en"		"The Duckhunter has been hunted!"
+		"da"		"Duckhunterne er slået ihjel!"
+	}
+
+	"duckhunt_voted"
+	{
+		"ru"		"Вы уже проголосовали за {purple}Охоту на уток"
+		"pl"		"juz glosowales na {purple}Polowanie na Kaczki"
+		"de"		"Du hast schon für {purple}Duckhunt {default}gevotet"
+		"en"		"You have already voted for {purple}Duckhunt!"
+		"da"		"Du har allerede stemt for {purple}Duckhunt Event!"
+	}
+
+	"duckhunt_voting"
+	{
+		"ru"		"Голосования за Охоту на Уток {purple}отключено"
+		"pl"		"Glosowanie graczy na Polowanie na kaczki jest {purple}wylaczone"
+		"de"		"Voting für duckhuntt ist {purple}ausgeschaltet"
+		"en"		"Voting for Duckhunt is {purple}disabled!"
+		"da"		"Afstemninger for Duckhunt er {purple}slået fra"
+	}
+
 	"duckhunt_wait"
 	{
-		"#format"	"{1:i}"
-		"en"		"Du skal vente {purple}{1}{default} flere runder!"	
-		"en"		"You must wait {purple}{1}{default} more rounds"
+		"#format"   "{1:i}"
+		"ru"		"Вы должны подождать больше {purple}{1}{default} раундов"
+		"da"		"Du skal vente {purple}{1}{default} flere runder!"
+		"pl"		"Musisz odczekac  {purple}{1}{default} rund"
 		"de"		"Du musst noch {purple}{1}{default} Runden warten"
+		"en"		"Du skal vente {purple}{1}{default} flere runder!"
+		"en"		"Du skal vente {purple}{1}{default} flere runder!"
 	}
+
 }

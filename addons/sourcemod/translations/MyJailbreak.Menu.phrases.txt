@@ -1,222 +1,462 @@
+// Exported from SourceMod Translator
+// http://translator.mitchdempsey.com/sourcemod_plugins/180
+//
 "Phrases"
 {
-	"menu_info" // only color line! working color tags {default}, {darkred}, {red}, {green}, {lightgreen}, {blue}, {olive}, {lime}, {lightred}, {purple}, {grey}, {orange}
+	"menu_info"
 	{
-		"en"			"[{green}MyJB.menu{default}] To open the jailbreak menu press , or type !menu"
-		"chi"			"[{green}我监狱.Menu{default}]要打开MENU按，或输入!menu"
-	}	
+		"ru"		"Откройте игровое меню, написав !menu или нажмите ,"
+		"chi"		"要打开MENU按，或输入!menu"
+		"pl"		"Aby otworzyc Menu Jailbreak nacisnij lub wpisz !menu"
+		"en"		"To open the Jailbreak menu, press , or type !menu in chat!"
+	}
+
 	"menu_info_title"
 	{
-		"en"			"MyJailbreak Menu"
-		"chi"			"我监狱.Menu"
-	}	
+		"ru"		"MyJailBreak меню"
+		"chi"		"我监狱.Menu"
+		"pl"		"MyJailbreak Menu"
+		"en"		"MyJailbreak Menu"
+	}
+
 	"menu_countdown"
 	{
-		"en"			"Start a Countdown"
-		"chi"			"启动倒计时"
-	}	
-	"menu_opencell"
-	{
-		"en"			"Open cell doors"
-		"chi"			"开放式监狱大门"
+		"en"		"Begin a Countdown Timer"
+		"ru"		"Начать отсчёт"
+		"chi"		"启动倒计时"
+		"pl"		"Rozpocznij Odliczanie"
 	}
-	"menu_seteventdays"
-	{
-		"en"			"Set EventDays"
-		"chi"			"集游戏天"
-	}
-	"menu_voteeventdays"
-	{
-		"en"			"Vote EventDays"
-		"chi"			"投票当天游戏天"
-	}
+
 	"menu_math"
 	{
-		"en"			"Math Quiz"
-		"chi"			"数学测验"
+		"en"		"Start a Math Quiz"
+		"ru"		"Викторина"
+		"chi"		"数学测验"
+		"pl"		"Matematyczny Quiz"
 	}
+
+	"menu_opencell"
+	{
+		"ru"		"Открыть двери камер"
+		"chi"		"开放式监狱大门"
+		"pl"		"Otworz drzwi cell"
+		"en"		"Open The Cell Doors"
+	}
+
+	"menu_seteventdays"
+	{
+		"en"		"Set Event Days"
+		"ru"		"Выбрать игровой день"
+		"chi"		"集游戏天"
+		"pl"		"Ustaw dzien/zabawe"
+	}
+
 	"menu_guns"
 	{
-		"en"			"Weapon Menu"
-		"chi"			"枪菜单"
-	}	
-	"menu_laser"
+		"ru"		"Меню оружия"
+		"chi"		"枪菜单"
+		"pl"		"Menu Broni"
+		"en"		"Weapon Menu"
+	}
+
+	"menu_sparks"
 	{
-		"en"			"Laser Pointer Menu"
-		"chi"			"激光菜单"
-		
-	}	
-	"menu_drawer"
+		"ru"		"Вкл/Выкл искры от пуль"
+		"en"		"Toggle BulletImpact Sparks"
+	}
+
+	"menu_voteeventdays"
 	{
-		"en"			"Drawer Menu"
-		"chi"			"画画菜单"
-		
-	}	
+		"ru"		"Голосуйте за игровой день"
+		"chi"		"投票当天游戏天"
+		"pl"		"Glosuj na zabawe"
+		"en"		"Vote For Event Days"
+	}
+
 	"menu_noblock"
 	{
-		"en"			"Toggle No Block"
-		"chi"			"切换No Block"
-	}	
+		"ru"		"Вкл/Выкл No Block"
+		"chi"		"切换No Block"
+		"pl"		"Wlacz No Block"
+		"en"		"Toggle NoBlock"
+	}
+
+	"menu_laser"
+	{
+		"ru"		"Меню лазерного указатель"
+		"chi"		"激光菜单"
+		"pl"		"Menu Lasera/Markera"
+		"en"		"Laser Pointer Menu"
+	}
+
+	"menu_extend"
+	{
+		"ru"		"Продлить время раунда"
+		"en"		"Extend The Round Time"
+	}
+
 	"menu_ffon"
 	{
-		"en"			"Enable FF for Ts"
-		"chi"			"启用误伤"
-		
-	}	
+		"ru"		"Включить FF для террористов"
+		"chi"		"启用误伤"
+		"pl"		"Wlacz Friendly Fire dla Terro"
+		"en"		"Enable FF for Ts"
+	}
+
 	"menu_ffoff"
 	{
-		"en"			"Disable FF for Ts"
-		"chi"			"关掉误伤"
+		"ru"		"Отключить FF для террористов"
+		"chi"		"关掉误伤"
+		"pl"		"Wylacz Friendly Fire dla Terro"
+		"en"		"Disable FF for Ts"
 	}
+
 	"menu_randomdead"
 	{
-		"en"			"Kill a random Terrorist"
-		"chi"			"随机杀Terrorist"
-	}	
+		"ru"		"Убить случайного Террориста"
+		"chi"		"随机杀Terrorist"
+		"pl"		"Zabij randomowego terroryste"
+		"en"		"Kill a Random Prisoner"
+	}
+
 	"menu_unwarden"
 	{
-		"en"			"Leave warden"
-		"chi"			"监狱长退休"
-	}	
+		"ru"		"Покинуть пост"
+		"chi"		"监狱长退休"
+		"pl"		"Opusc Straznika"
+		"en"		"Retire From Warden"
+	}
+
 	"menu_getwarden"
 	{
-		"en"			"Become warden"
-		"chi"			"成为监狱长"
-	}	
+		"ru"		"Занять пост КМД"
+		"chi"		"成为监狱长"
+		"pl"		"Zostan Straznikiem"
+		"en"		"Become The Warden"
+	}
+
 	"menu_joint"
 	{
-		"en"			"Join Terror"
-		"chi"			"加入恐怖"
+		"en"		"Become a Prisoner"
+		"ru"		"Зайти за террористов"
+		"chi"		"加入恐怖"
+		"pl"		"Dolacz do terrorystow"
 	}
+
 	"menu_check"
 	{
-		"en"			"Check Players"
-		"chi"			"查Players"
+		"ru"		"Проверка игроков"
+		"chi"		"查Players"
+		"pl"		"Sprawdz zawodnikow"
+		"en"		"Check Rebellers"
 	}
+
 	"menu_lr"
 	{
-		"en"			"Last Request"
-		"chi"			"最后一个请求(Last-Request)"
+		"ru"		"Последнее желание"
+		"chi"		"最后一个请求(Last-Request)"
+		"pl"		"Ostatnie zyczenie"
+		"en"		"Last Request"
 	}
+
 	"menu_removewarden"
 	{
-		"en"			"Remove warden"
-		"chi"			"消防队长"
+		"ru"		"Уволить командира"
+		"chi"		"消防队长"
+		"pl"		"Usun Straznika"
+		"en"		"Remove Warden"
 	}
+
 	"menu_setwarden"
 	{
-		"en"			"Set new warden"
-		"chi"			"设置新的监狱长"
+		"ru"		"Выбрать нового командира"
+		"chi"		"设置新的监狱长"
+		"pl"		"Ustal nowego Straznika"
+		"en"		"Set New Warden"
 	}
+
 	"menu_rules"
 	{
-		"en"			"Rules"
-		"chi"			"规则"
+		"ru"		"Правила"
+		"chi"		"规则"
+		"pl"		"Zasady"
+		"en"		"Rules"
 	}
+
 	"menu_joinct"
 	{
-		"en"			"Join Counter-Terror"
-		"chi"			"加入Counter-Terror"
+		"ru"		"Зайти за КТ"
+		"chi"		"加入Counter-Terror"
+		"pl"		"Dolacz do Counter Terro"
+		"en"		"Become a Guard"
 	}
+
 	"menu_guardct"
 	{
-		"en"			"Join CT queue (!guard)"
-		"chi"			"排队CT(!guard)"
+		"ru"		"Занять очередь за КТ (!guard)"
+		"chi"		"排队CT(!guard)"
+		"pl"		"dolacz do kolejki CT (!guard)"
+		"en"		"Join Guard queue (!guard)"
 	}
+
 	"menu_request"
 	{
-		"en"			"Requests"
-		"chi"			"要求(Requests)"
+		"ru"		"Запросы"
+		"chi"		"要求(Requests)"
+		"pl"		"Zadania"
+		"en"		"Requests"
 	}
+
 	"menu_votewarden"
 	{
-		"en"			"Vote fire warden"
-		"chi"			"投票消防队长"
+		"ru"		"Проголосовать за увольнение КМД"
+		"chi"		"投票消防队长"
+		"pl"		"Glosuj za zmiana Straznika"
+		"en"		"Vote To Fire The Warden"
 	}
+
 	"menu_event_Titlestart"
 	{
-		"en"			"Start Event next round"
-		"chi"			"活动下一轮开始"
+		"ru"		"Начало игрового дня в следующем раунде"
+		"chi"		"活动下一轮开始"
+		"pl"		"Rozpocznij zabawe w nastepnej rundzie"
+		"en"		"Start Event Next Round"
 	}
+
 	"menu_event_Titlevote"
 	{
-		"en"			"Vote for a Event Day"
-		"chi"			"投票游戏天"
+		"ru"		"Проголосовать за игровой день"
+		"chi"		"投票游戏天"
+		"pl"		"Glosuj na Zabawe Dnia"
+		"en"		"Vote for an Event Day"
 	}
+
 	"menu_war"
 	{
-		"en"			"War"
+		"de"		"Krieg"
+		"ru"		"Война"
+		"pl"		"Wojna"
+		"en"		"War"
 	}
+
 	"menu_ffa"
 	{
-		"en"			"Free for All"
+		"ru"		"Все против ВСЕХ"
+		"pl"		"Free for All"
+		"en"		"Free for All"
 	}
+
 	"menu_zeus"
 	{
-		"en"			"Zeus"
+		"ru"		"День зевса"
+		"pl"		"Zeus"
+		"en"		"Zeus Day"
 	}
+
 	"menu_zombie"
 	{
-		"en"			"Zombie Day"
+		"ru"		"Зомби день"
+		"pl"		"Zombie Day"
+		"en"		"Zombie Day"
 	}
+
+	"menu_dealdamge"
+	{
+		"ru"		"День урона"
+		"en"		"Deal Damage Day"
+	}
+
 	"menu_hide"
 	{
-		"en"			"Hide in The Dark"
+		"ru"		"Прятки в темноте"
+		"pl"		"Chowanego"
+		"en"		"Hide in The Dark"
 	}
+
 	"menu_suicidebomber"
 	{
-		"en"			"Suicide Bomber"
+		"ru"		"Смертник"
+		"pl"		"Suicide Bomber"
+		"en"		"Suicide Bomber"
 	}
+
 	"menu_catch"
 	{
-		"en"			"Catch & Freeze"
+		"ru"		"Поймай и заморозь"
+		"pl"		"Goniony"
+		"en"		"Catch & Freeze"
 	}
+
 	"menu_knifefight"
 	{
-		"en"			"KnifeFight"
+		"en"		"Knife Fight"
+		"ru"		"Битва на ножах"
+		"pl"		"KNIFE"
 	}
+
 	"menu_hebattle"
 	{
-		"en"			"HE Battle"
+		"ru"		"Бой гранатами"
+		"pl"		"HE Battle"
+		"en"		"HE Battle"
 	}
+
 	"menu_cowboy"
 	{
-		"en"			"Cowboy"
+		"ru"		"Ковбой"
+		"pl"		"Cowboy"
+		"en"		"Cowboy"
 	}
+
 	"menu_drunk"
 	{
-		"en"			"Drunken"
+		"ru"		"Пьяный"
+		"pl"		"Pijak"
+		"en"		"Drunk Day"
 	}
+
 	"menu_torch"
 	{
-		"en"			"Torch Relay"
-		"de"			"Fackellauf"
+		"ru"		"Эстафета Олимпийского огня"
+		"pl"		"Czlowiek Pochodnia"
+		"de"		"Fackellauf"
+		"en"		"Torch Relay"
 	}
+
 	"menu_noscope"
 	{
-		"en"			"NoScope"
+		"ru"		"Без прицела"
+		"pl"		"No scope"
+		"en"		"No Scope"
 	}
+
 	"menu_duckhunt"
 	{
-		"en"			"DuckHunt"
+		"ru"		"Охота на уток"
+		"pl"		"Polowanie na Kaczki"
+		"en"		"DuckHunt"
 	}
+
 	"menu_Freeday"
 	{
-		"en"			"Freeday"
+		"ru"		"Фридей"
+		"pl"		"Freeday"
+		"en"		"Freeday"
 	}
+
 	"menu_admin"
 	{
-		"en"			"Admin Menu"
-		"chi"			"管理菜单"
+		"ru"		"Меню администратора"
+		"chi"		"管理菜单"
+		"pl"		"Admin Menu"
+		"en"		"Admin Menu"
 	}
+
 	"menu_mute"
 	{
-		"en"			"Mute Menu"
+		"ru"		"Меню мутов"
+		"pl"		"Mute Menu"
+		"en"		"Mute Menu"
 	}
-	/* PLACEHOLDER
+
+	"menu_tag"
+	{
+		"en"		"[{green}MyJB.menu{default}]"
+		"pl"		"[{green}MyJB.menu{default}]"
+		"chi"		"[{green}我监狱.Menu{default}]"
+		"ru"		"[{green}MyJB.menu{default}]"
+	}
+
+	"menu_voting"
+	{
+		"ru"		"Голосование за игровой день:"
+		"en"		"Vote for an Event Day:"
+	}
+
+	"menu_painter"
+	{
+		"ru"		"Меню рисовальщика"
+		"en"		"Painter Menu"
+		"pl"		"Menu Painter"
+		"chi"		"画画菜单"
+	}
+
+	"menu_closecell"
+	{
+		"ru"		"Закрыть двери камер"
+		"en"		"Close The Cell Doors"
+	}
+
+	"menu_voteday"
+	{
+		"ru"		"Начать голосование за игровой день"
+		"en"		"Start an Event Day Voting"
+	}
+
+	"menu_votingwon"
+	{
+		"#format"   "{1:s},{2:i},{3:i}"
+		"ru"		"Голосование закончилось {2} голосов было. {green}{1} {default}победил с {3} голосами."
+		"en"		"The vote has ended with {2} vote yet. {green}{1} {default}won with {3} votes."
+	}
+
+	"menu_playerfreeday"
+	{
+		"en"		"Give a Player a Freeday"
+		"ru"		"Выдать игроку фридей"
+	}
+
+	"menu_rebel"
+	{
+		"en"		"Un/Mark a player as Rebel"
+		"ru"		"Офф/Пометить игрока как бунтующего"
+	}
+
+	"menu_count"
+	{
+		"en"		"Count nearby Prisoner"
+		"ru"		"Посчитать заключённых"
+	}
+
+	"menu_minplayer"
+	{
+		"ru"		"Для голосование за игровой дня, вы должны иметь как минимум {purple}одного КТ и 1 Т"
+		"en"		"For a Event Day Voting, you must have at least {purple}one Guard, & one Prisoner"
+	}
+
+	"menu_progress"
+	{
+		"#format"   "{1:s}"
+		"ru"		"Игровой день {darkred}{1} {default}в {purple}процессе!"
+		"en"		"The event {darkred}{1} {default}is {purple}already in progress!"
+	}
+
+	"menu_wait"
+	{
+		"#format"   "{1:i}"
+		"ru"		"Вы должны подождать больше {1} раундов для голосования за игровой день!"
+		"en"		"You must wait {purple}{1}{default} more rounds for an Event Day Voting!"
+	}
+
+	"menu_votingdraw"
+	{
+		"ru"		"Голосование закончилось в 50/50! Игровой день был выбран случайно!"
+		"en"		"The vote ended in a 50/50 draw! An Event Day was chosen Randomly!"
+	}
+
+	"menu_disabled"
+	{
+		"ru"		"Голосование за игровой день {purple}отключен!"
+		"de"		"Event voting ist vorübergehend {purple}deaktiviert."
+		"da"		"Event voting runde er midlertidigt {purple}slÃ¥et fra."
+		"en"		"Event voting is currently {purple}disabled!"
+	}
+
+	/* Translation PLACEHOLDER
 	"menu_PLACEHOLDER"
 	{
-		"en"			"PLACEHOLDER"
+		"en"		"PLACEHOLDER Item"
 	}
 	*/
+
 }
